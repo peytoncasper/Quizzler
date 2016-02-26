@@ -1,15 +1,18 @@
-CREATE KEYSPACE IF NOT EXISTS quizzler WITH replication = {
-  'class': 'NetworkTopologyStrategy',
-  'SearchAnalytics': '1'
-};
+CREATE KEYSPACE IF NOT EXISTS quizzler WITH replication = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
 
 CREATE TABLE IF NOT EXISTS quizzler.question (
 	question_id timeuuid,
     question text,
-    category text,
+    category_name text,
     quizzler_percent int,
-    PRIMARY KEY ((quizzler_percent, category), question_id)
+    PRIMARY KEY ((quizzler_percent, category_name), question_id)
 ) WITH CLUSTERING ORDER BY (question_id DESC);
+
+CREATE TABLE IF NOT EXISTS quizzler.categories (
+	category_id timeuuid,
+    category_name text,
+    PRIMARY KEY (category_id,category_name)
+) WITH CLUSTERING ORDER BY (category_name DESC);
 
 CREATE TABLE IF NOT EXISTS quizzler.answers (
 	answer_id timeuuid,
