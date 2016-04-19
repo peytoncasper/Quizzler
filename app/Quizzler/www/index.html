@@ -20,21 +20,60 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="js/TelegramController.js"></script>
+
   </head>
-  <body ng-app="starter">
+  <body ng-app="Archos">
 
     <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
-      </ion-header-bar>
-      <ion-content>
-          <div data-ng-controller="QuizzlerController" data-ng-init="GetQuestions()">
-              <ul>
-                  <li ng-repeat="question in question_data.questions">
-                      <span>{{ question.question_id }}</span>
-
-                  </li>
-              </ul>
+      <ion-content style="background-color:#383838">
+          <div style="padding:20px;" class="row">
+            <div class="center" class="col">
+              <div data-ng-controller="QuizzlerController" data-ng-init="startTimer()">
+                <h1 style="color:white">{{currentTime}}</h1>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <div class="card">
+                <div class="item item-divider">
+                  Today's Updates
+                </div>
+                  <ul class="list">
+                    <li class="item">
+                      ...
+                    </li>
+                    <li class="item">
+                      ...
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-25">
+              <div class="list card" data-ng-controller="QuizzlerController" data-ng-init="getQuestions()" >
+                <div class="item item-divider">
+                  Quizzler
+                </div >
+                <!--<ul class="list">-->
+                  <!--<div ng-repeat="question in list_of_questions track by question.question_id" class="item" >-->
+                    <!--<span>{{ question.question_text }}</span>-->
+                <label class="item item-input item-stacked-label">
+                  <span class="input-label">Phone Number</span>
+                  <input ng-controller="TelegramController" ng-model="phoneNumber" type="text" placeholder="">
+                </label>
+                  <!--</div>-->
+                  <!--<li >-->
+                <button style="margin: 0px" class="button button-full button-positive" ng-controller="TelegramController" ng-click="sendCode()">
+                  Send Code
+                </button>
+                    <button style="margin: 0px" class="button button-full button-positive" ng-controller="QuizzlerController" ng-click="openModal()">
+                      Add Question
+                    </button>
+                  <!--</li>-->
+                </ul>
+              </div>
+            </div>
           </div>
       </ion-content>
     </ion-pane>

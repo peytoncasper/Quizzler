@@ -1,4 +1,5 @@
 {
   "name": "Quizzler",
-  "app_id": ""
+  "app_id": "",
+  "defaultBrowser": "chrome"
 }
