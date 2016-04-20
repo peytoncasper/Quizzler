@@ -1,5 +1,15 @@
 CREATE KEYSPACE IF NOT EXISTS quizzler WITH replication = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
 
+CREATE TABLE IF NOT EXISTS quizzler.account (
+	username text,
+    password text,
+    quiz_interval decimal,
+    last_quiz timestamp,
+    chat_id text,
+    chat_username text,
+    PRIMARY KEY (username)
+);
+
 CREATE TABLE IF NOT EXISTS quizzler.question (
 	question_id timeuuid,
     question text,
