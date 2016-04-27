@@ -1,7 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
-[debug] no default cache defined: set to /home/peyton/.ivy2/cache
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /home/peyton/.ivy2/cache
 [debug] :: resolving dependencies :: default#quizzlertelegramingestor$sbt_2.11;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -704,9 +704,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 827ms :: artifacts dl 17ms
+[debug] :: resolution report :: resolve 1043ms :: artifacts dl 30ms
 [debug] 	report for default#quizzlertelegramingestor$sbt_2.11;1.0 default produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor$sbt_2.11-default.xml
-[debug] 	resolve done (827ms resolve - 17ms download)
+[debug] 	resolve done (1043ms resolve - 30ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#quizzlertelegramingestor$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1070,6 +1070,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 75ms :: artifacts dl 17ms
+[debug] :: resolution report :: resolve 116ms :: artifacts dl 24ms
 [debug] 	report for default#quizzlertelegramingestor$sources_2.11;1.0 default produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor$sources_2.11-default.xml
-[debug] 	resolve done (75ms resolve - 17ms download)
+[debug] 	resolve done (116ms resolve - 24ms download)

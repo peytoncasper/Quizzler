@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for default#quizzlertelegramingestor_2.11;1.0 [compile]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e16bc8f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e7d5777
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -3848,16 +3848,13 @@
 [debug] sbt-chain: module revision found in cache: com.datastax.cassandra#cassandra-driver-core;3.0.0
 [debug] 	found com.datastax.cassandra#cassandra-driver-core;3.0.0 in sbt-chain
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile(*)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [info] Resolving io.netty#netty-handler;4.0.33.Final ...
 [debug] sbt-chain: Checking cache for: dependency: io.netty#netty-handler;4.0.33.Final {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: io.netty#netty-handler;4.0.33.Final
 [debug] 	found io.netty#netty-handler;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -3874,7 +3871,6 @@
 [debug] 	found io.netty#netty-buffer;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -3891,7 +3887,6 @@
 [debug] 	found io.netty#netty-common;4.0.33.Final in sbt-chain
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -3910,7 +3905,6 @@
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -3928,12 +3922,18 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->compile(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[info] Resolving com.google.guava#guava;16.0.1 ...
+[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
+[debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->compile(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->runtime(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->compile]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [runtime->runtime(*)]
@@ -3948,18 +3948,18 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->compile]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->compile]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->compile]
+[debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
+[debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
+[debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.google.guava#guava;16.0.1 [compile->master(compile)]
-[info] Resolving com.google.guava#guava;16.0.1 ...
-[debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.google.guava#guava;16.0.1
-[debug] 	found com.google.guava#guava;16.0.1 in sbt-chain
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.google.guava#guava;16.0.1 [compile->compile(*)]
-[debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.google.guava#guava;16.0.1 [compile->runtime(*)]
-[debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.google.guava#guava;16.0.1 [compile->compile]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.joda#joda-convert;1.2 [compile->master(compile)]
 [info] Resolving org.joda#joda-convert;1.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -4006,6 +4006,10 @@
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2 [compile->master]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.11;2.4.4 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.11;2.4.4 {compile=[default(compile)]}
@@ -7619,12 +7623,9 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile(*)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -7637,7 +7638,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -7650,7 +7650,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -7665,7 +7664,6 @@
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -7679,8 +7677,9 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->compile(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->compile(*)]
@@ -7702,7 +7701,6 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->compile]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [runtime->runtime(*)]
@@ -7717,6 +7715,8 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->compile]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->compile]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->compile]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [runtime->runtime(*)]
@@ -7732,6 +7732,10 @@
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2 [compile->master]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
@@ -11213,12 +11217,9 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile(*)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -11231,7 +11232,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -11244,7 +11244,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -11259,7 +11258,6 @@
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -11273,8 +11271,9 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->compile(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->compile(*)]
@@ -11296,7 +11295,6 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->compile]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [runtime->runtime(*)]
@@ -11311,6 +11309,8 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->compile]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->compile]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->compile]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [runtime->runtime(*)]
@@ -11326,6 +11326,10 @@
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2 [compile->master]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
@@ -14810,12 +14814,9 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile(*)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -14828,7 +14829,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -14841,7 +14841,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -14856,7 +14855,6 @@
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -14870,8 +14868,9 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->compile(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->compile(*)]
@@ -14893,7 +14892,6 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->compile]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [runtime->runtime(*)]
@@ -14908,6 +14906,8 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->compile]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->compile]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->compile]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [runtime->runtime(*)]
@@ -14923,6 +14923,10 @@
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2 [compile->master]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
@@ -18406,12 +18410,9 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile(*)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -18424,7 +18425,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -18437,7 +18437,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -18452,7 +18451,6 @@
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -18466,8 +18464,9 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->compile(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->compile(*)]
@@ -18489,7 +18488,6 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->compile]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [runtime->runtime(*)]
@@ -18504,6 +18502,8 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->compile]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->compile]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->compile]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [runtime->runtime(*)]
@@ -18519,6 +18519,10 @@
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2 [compile->master]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
@@ -22002,12 +22006,9 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile(*)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -22020,7 +22021,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -22033,7 +22033,6 @@
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.netty#netty-buffer;4.0.33.Final->io.netty#netty-common;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -22048,7 +22047,6 @@
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-transport;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.slf4j#slf4j-api;1.6.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.slf4j#slf4j-api;1.7.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: junit#junit;4.11 {test=[runtime(*), master(compile)]} => dependency: junit#junit;4.12 {test=[runtime(*), master(compile)]}
@@ -22062,8 +22060,9 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [compile->compile(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->master(compile)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [compile->compile(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->master(compile)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->master(compile)]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in compile
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [compile->compile(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->master(compile)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [compile->compile(*)]
@@ -22085,7 +22084,6 @@
 [debug] excluding dependency: com.google.guava#guava;18.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->com.datastax.cassandra#cassandra-driver-core;3.0.0 [runtime->compile]
-[debug] excluding dependency: com.google.guava#guava;16.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} in runtime
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.netty#netty-handler;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-buffer;4.0.33.Final [runtime->runtime(*)]
@@ -22100,6 +22098,8 @@
 [debug] == resolving dependencies io.netty#netty-handler;4.0.33.Final->io.netty#netty-codec;4.0.33.Final [runtime->compile]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->runtime(*)]
 [debug] == resolving dependencies io.netty#netty-codec;4.0.33.Final->io.netty#netty-transport;4.0.33.Final [runtime->compile]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->com.google.guava#guava;16.0.1 [runtime->compile]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.cassandra#cassandra-driver-core;3.0.0->io.dropwizard.metrics#metrics-core;3.1.2 [runtime->compile]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.apache.commons#commons-lang3;3.3.2 [runtime->runtime(*)]
@@ -22115,6 +22115,10 @@
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)]
 [debug] == resolving dependencies com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2->org.scala-lang#scala-reflect;2.11.7 [runtime->compile]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2 [compile->master]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->runtime]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->compile]
+[debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.datastax.cassandra#cassandra-driver-core;3.0.0 [compile->master]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->default(compile)]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->runtime]
 [debug] == resolving dependencies default#quizzlertelegramingestor_2.11;1.0->com.typesafe.akka#akka-actor_2.11;2.4.4 [compile->compile]
@@ -22384,6 +22388,7 @@
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-streaming_2.11;1.6.1!spark-streaming_2.11.jar
 [debug] 	[NOT REQUIRED] org.apache.spark#spark-sql_2.11;1.6.1!spark-sql_2.11.jar
 [debug] 	[NOT REQUIRED] com.datastax.spark#spark-cassandra-connector_2.11;1.6.0-M2!spark-cassandra-connector_2.11.jar
+[debug] 	[NOT REQUIRED] com.datastax.cassandra#cassandra-driver-core;3.0.0!cassandra-driver-core.jar(bundle)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.4.4!akka-actor_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.11;2.4.4!akka-stream_2.11.jar
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-experimental_2.11;2.4.4!akka-http-experimental_2.11.jar
@@ -22513,7 +22518,6 @@
 [debug] 	[NOT REQUIRED] org.apache.parquet#parquet-format;2.3.0-incubating!parquet-format.jar
 [debug] 	[NOT REQUIRED] org.apache.parquet#parquet-jackson;1.7.0!parquet-jackson.jar
 [debug] 	[NOT REQUIRED] org.apache.cassandra#cassandra-clientutil;3.0.2!cassandra-clientutil.jar
-[debug] 	[NOT REQUIRED] com.datastax.cassandra#cassandra-driver-core;3.0.0!cassandra-driver-core.jar(bundle)
 [debug] 	[NOT REQUIRED] com.google.guava#guava;16.0.1!guava.jar(bundle)
 [debug] 	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.3!joda-time.jar
@@ -22539,7 +22543,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar
-[debug] :: resolution report :: resolve 3105ms :: artifacts dl 77ms
+[debug] :: resolution report :: resolve 3922ms :: artifacts dl 56ms
 [debug] 	report for default#quizzlertelegramingestor_2.11;1.0 compile produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor_2.11-compile.xml
 [debug] 	report for default#quizzlertelegramingestor_2.11;1.0 runtime produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor_2.11-runtime.xml
 [debug] 	report for default#quizzlertelegramingestor_2.11;1.0 test produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor_2.11-test.xml
@@ -22553,7 +22557,7 @@
 [debug] 	report for default#quizzlertelegramingestor_2.11;1.0 docs produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor_2.11-docs.xml
 [debug] 	report for default#quizzlertelegramingestor_2.11;1.0 pom produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor_2.11-pom.xml
 [debug] 	report for default#quizzlertelegramingestor_2.11;1.0 scala-tool produced in /home/peyton/Documents/Quizzler/QuizzlerTelegramIngestor/target/resolution-cache/reports/default-quizzlertelegramingestor_2.11-scala-tool.xml
-[debug] 	resolve done (3105ms resolve - 77ms download)
+[debug] 	resolve done (3922ms resolve - 56ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies.
 [warn] Here are some of the libraries that were evicted:
