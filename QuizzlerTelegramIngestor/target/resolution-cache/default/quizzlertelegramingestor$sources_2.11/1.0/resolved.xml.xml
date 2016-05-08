@@ -4,7 +4,7 @@
 		module="quizzlertelegramingestor$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160426064713"
+		publication="20160501160918"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

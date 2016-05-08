@@ -1,0 +1,33 @@
+{
+  "RootMenu":{
+      "keyboard":[
+      [
+        {
+          "text": "Add a Question",
+          "request_contact": false,
+          "request_location": false
+        },
+        {
+          "text": "Take a Quiz",
+          "request_contact": false,
+          "request_location": false
+        }
+      ],
+      [
+        {
+          "text": "Set Quiz Interval",
+          "request_contact": false,
+          "request_location": false
+        },
+        {
+          "text": "Select a Question",
+          "request_contact": false,
+          "request_location": false
+        }
+      ]
+    ],
+    "resize_keyboard": false,
+    "one_time_keyboard": true,
+    "selective": false
+  }
+}
