@@ -7,10 +7,85 @@
 		revision="1.0"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160501160918"/>
+		date="20160523181036"/>
 	<dependencies>
+		<module organisation="org.jfarcand" name="wcs">
+			<revision name="1.5" status="release" pubdate="20151108220703" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jfarcand/wsc" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="148">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4774" time="0" location="/home/peyton/.ivy2/cache/org.jfarcand/wcs/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/jfarcand/wcs/1.5/wcs-1.5.pom"/>
+				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="wcs" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6188" time="0" location="/home/peyton/.ivy2/cache/org.jfarcand/wcs/srcs/wcs-1.5-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfarcand/wcs/1.5/wcs-1.5-sources.jar"/>
+					</artifact>
+					<artifact name="wcs" type="jar" ext="jar" status="no" details="" size="26043" time="0" location="/home/peyton/.ivy2/cache/org.jfarcand/wcs/jars/wcs-1.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/jfarcand/wcs/1.5/wcs-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ning" name="async-http-client">
+			<revision name="1.9.28" status="release" pubdate="20150622040500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/AsyncHttpClient/async-http-client" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="149">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="6835" time="0" location="/home/peyton/.ivy2/cache/com.ning/async-http-client/ivy-1.9.28.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/ning/async-http-client/1.9.28/async-http-client-1.9.28.pom"/>
+				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.9.28" rev-constraint-default="1.9.28" rev-constraint-dynamic="1.9.28" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="async-http-client" type="jar" ext="jar" status="no" details="" size="733748" time="0" location="/home/peyton/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.28.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/async-http-client/1.9.28/async-http-client-1.9.28.jar"/>
+					</artifact>
+					<artifact name="async-http-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="462736" time="0" location="/home/peyton/.ivy2/cache/com.ning/async-http-client/srcs/async-http-client-1.9.28-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/ning/async-http-client/1.9.28/async-http-client-1.9.28-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.12" status="release" pubdate="20150326155005" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="151">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4738" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.pom"/>
+				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.12" rev-constraint-default="1.7.12" rev-constraint-dynamic="1.7.12" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="32127" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50813" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.12-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.3.Final" status="release" pubdate="20150508103100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="150">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6957" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
+				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1324704" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/jars/netty-3.10.3.Final.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1149046" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/srcs/netty-3.10.3.Final-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaj" name="scalaj-http_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160402162521" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="147">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3039" time="0" location="/home/peyton/.ivy2/cache/org.scalaj/scalaj-http_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.3.0/scalaj-http_2.11-2.3.0.pom"/>
+				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scalaj-http_2.11" type="jar" ext="jar" status="no" details="" size="156197" time="0" location="/home/peyton/.ivy2/cache/org.scalaj/scalaj-http_2.11/jars/scalaj-http_2.11-2.3.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.3.0/scalaj-http_2.11-2.3.0.jar"/>
+					</artifact>
+					<artifact name="scalaj-http_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="13316" time="0" location="/home/peyton/.ivy2/cache/org.scalaj/scalaj-http_2.11/srcs/scalaj-http_2.11-2.3.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalaj/scalaj-http_2.11/2.3.0/scalaj-http_2.11-2.3.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.json4s" name="json4s-native_2.11">
-			<revision name="3.3.0" status="release" pubdate="20151003082355" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="143">
+			<revision name="3.3.0" status="release" pubdate="20151003082355" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="141">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2676" time="0" location="/home/peyton/.ivy2/cache/org.json4s/json4s-native_2.11/ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-native_2.11/3.3.0/json4s-native_2.11-3.3.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="1.0"/>
@@ -25,7 +100,7 @@
 			</revision>
 		</module>
 		<module organisation="org.json4s" name="json4s-core_2.11">
-			<revision name="3.3.0" status="release" pubdate="20151003082315" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="144">
+			<revision name="3.3.0" status="release" pubdate="20151003082315" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="142">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3123" time="0" location="/home/peyton/.ivy2/cache/org.json4s/json4s-core_2.11/ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-core_2.11/3.3.0/json4s-core_2.11-3.3.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="1.0"/>
@@ -40,7 +115,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
-			<revision name="1.0.5" status="release" pubdate="20150724220253" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="148">
+			<revision name="1.0.5" status="release" pubdate="20150724220253" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="146">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="3011" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.0"/>
@@ -55,7 +130,7 @@
 			</revision>
 		</module>
 		<module organisation="com.thoughtworks.paranamer" name="paranamer">
-			<revision name="2.8" status="release" pubdate="20150826130215" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="147">
+			<revision name="2.8" status="release" pubdate="20150826130215" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="145">
 				<metadata-artifact status="no" details="" size="4211" time="0" location="/home/peyton/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="1.0"/>
 				<artifacts>
@@ -69,7 +144,7 @@
 			</revision>
 		</module>
 		<module organisation="org.json4s" name="json4s-scalap_2.11">
-			<revision name="3.3.0" status="release" pubdate="20151003082316" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="146">
+			<revision name="3.3.0" status="release" pubdate="20151003082316" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="144">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2531" time="0" location="/home/peyton/.ivy2/cache/org.json4s/json4s-scalap_2.11/ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-scalap_2.11/3.3.0/json4s-scalap_2.11-3.3.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="1.0"/>
@@ -84,7 +159,7 @@
 			</revision>
 		</module>
 		<module organisation="org.json4s" name="json4s-ast_2.11">
-			<revision name="3.3.0" status="release" pubdate="20151003082317" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="145">
+			<revision name="3.3.0" status="release" pubdate="20151003082317" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="143">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2522" time="0" location="/home/peyton/.ivy2/cache/org.json4s/json4s-ast_2.11/ivy-3.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-ast_2.11/3.3.0/json4s-ast_2.11-3.3.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.3.0" rev-constraint-default="3.3.0" rev-constraint-dynamic="3.3.0" callerrev="1.0"/>
@@ -99,7 +174,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http-experimental_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414040520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="140">
+			<revision name="2.4.4" status="release" pubdate="20160414040520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="138">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3332" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-http-experimental_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-experimental_2.11/2.4.4/akka-http-experimental_2.11-2.4.4.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
@@ -114,7 +189,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-http-core_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414040522" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="141">
+			<revision name="2.4.4" status="release" pubdate="20160414040522" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="139">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3616" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-http-core_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-http-core_2.11/2.4.4/akka-http-core_2.11-2.4.4.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
@@ -129,7 +204,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-parsing_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414040526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="142">
+			<revision name="2.4.4" status="release" pubdate="20160414040526" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="140">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2686" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-parsing_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-parsing_2.11/2.4.4/akka-parsing_2.11-2.4.4.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
@@ -144,7 +219,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-stream_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414040523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="135">
+			<revision name="2.4.4" status="release" pubdate="20160414040523" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="133">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3233" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-stream_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-stream_2.11/2.4.4/akka-stream_2.11-2.4.4.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
@@ -159,7 +234,7 @@
 			</revision>
 		</module>
 		<module organisation="org.reactivestreams" name="reactive-streams">
-			<revision name="1.0.0" status="release" pubdate="20150429111400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="139">
+			<revision name="1.0.0" status="release" pubdate="20150429111400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="137">
 				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
 				<metadata-artifact status="no" details="" size="2397" time="0" location="/home/peyton/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="1.0"/>
@@ -174,7 +249,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="ssl-config-akka_2.11">
-			<revision name="0.2.1" status="release" pubdate="20160413013006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="136">
+			<revision name="0.2.1" status="release" pubdate="20160413013006" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="134">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2874" time="0" location="/home/peyton/.ivy2/cache/com.typesafe/ssl-config-akka_2.11/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/ssl-config-akka_2.11/0.2.1/ssl-config-akka_2.11-0.2.1.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="1.0"/>
@@ -189,7 +264,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="ssl-config-core_2.11">
-			<revision name="0.2.1" status="release" pubdate="20160413013007" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="137">
+			<revision name="0.2.1" status="release" pubdate="20160413013007" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/ssl-config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="135">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2875" time="0" location="/home/peyton/.ivy2/cache/com.typesafe/ssl-config-core_2.11/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/ssl-config-core_2.11/0.2.1/ssl-config-core_2.11-0.2.1.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="1.0"/>
@@ -203,23 +278,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
-			<revision name="1.0.4" status="release" pubdate="20150430090700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="138">
-				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
-				<metadata-artifact status="no" details="" size="2803" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
-				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
-					</artifact>
-					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="423753" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/jars/scala-parser-combinators_2.11-1.0.4.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.4.4" status="release" pubdate="20160414040517" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="132">
+			<revision name="2.4.4" status="release" pubdate="20160414040517" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="130">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2830" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-actor_2.11/2.4.4/akka-actor_2.11-2.4.4.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
@@ -234,7 +294,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.11">
-			<revision name="0.7.0" status="release" pubdate="20150831185044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="134">
+			<revision name="0.7.0" status="release" pubdate="20150831185044" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="132">
 				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
 				<metadata-artifact status="no" details="" size="2910" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-java8-compat_2.11/0.7.0/scala-java8-compat_2.11-0.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="1.0"/>
@@ -249,7 +309,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe" name="config">
-			<revision name="1.3.0" status="release" pubdate="20150508104611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="133">
+			<revision name="1.3.0" status="release" pubdate="20150508104611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="131">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="2875" time="0" location="/home/peyton/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
@@ -264,7 +324,7 @@
 			</revision>
 		</module>
 		<module organisation="com.datastax.spark" name="spark-cassandra-connector_2.11">
-			<revision name="1.6.0-M2" status="release" pubdate="20160414091941" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/spark-cassandra-connector" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="120">
+			<revision name="1.6.0-M2" status="release" pubdate="20160414091941" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/spark-cassandra-connector" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="10319" time="0" location="/home/peyton/.ivy2/cache/com.datastax.spark/spark-cassandra-connector_2.11/ivy-1.6.0-M2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/datastax/spark/spark-cassandra-connector_2.11/1.6.0-M2/spark-cassandra-connector_2.11-1.6.0-M2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.6.0-M2" rev-constraint-default="1.6.0-M2" rev-constraint-dynamic="1.6.0-M2" callerrev="1.0"/>
@@ -279,7 +339,7 @@
 			</revision>
 		</module>
 		<module organisation="com.twitter" name="jsr166e">
-			<revision name="1.1.0" status="release" pubdate="20140214115500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="131">
+			<revision name="1.1.0" status="release" pubdate="20140214115500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/twitter/jsr166e" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="129">
 				<license name="CC0 1.0 Universal" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
 				<metadata-artifact status="no" details="" size="2704" time="0" location="/home/peyton/.ivy2/cache/com.twitter/jsr166e/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/twitter/jsr166e/1.1.0/jsr166e-1.1.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.0"/>
@@ -294,7 +354,7 @@
 			</revision>
 		</module>
 		<module organisation="joda-time" name="joda-time">
-			<revision name="2.3" status="release" pubdate="20130816123100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="130">
+			<revision name="2.3" status="release" pubdate="20130816123100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="128">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="6376" time="0" location="/home/peyton/.ivy2/cache/joda-time/joda-time/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/joda-time/joda-time/2.3/joda-time-2.3.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.0"/>
@@ -309,7 +369,7 @@
 			</revision>
 		</module>
 		<module organisation="org.joda" name="joda-convert">
-			<revision name="1.2" status="release" pubdate="20131006123714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="129">
+			<revision name="1.2" status="release" pubdate="20131006123714" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-convert.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="127">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3120" time="0" location="/home/peyton/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/joda/joda-convert/1.2/joda-convert-1.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="1.0"/>
@@ -324,7 +384,7 @@
 			</revision>
 		</module>
 		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
-			<revision name="3.0.0" status="release" pubdate="20160128150033" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="122">
+			<revision name="3.0.0" status="release" pubdate="20160128150033" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="120">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="7478" time="0" location="/home/peyton/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/ivy-3.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/datastax/cassandra/cassandra-driver-core/3.0.0/cassandra-driver-core-3.0.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.0.0" rev-constraint-default="3.0.0" rev-constraint-dynamic="3.0.0" callerrev="1.0"/>
@@ -339,7 +399,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-handler">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104180555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="123">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104180555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="121">
 				<metadata-artifact status="no" details="" size="16525" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty-handler/ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-handler/4.0.33.Final/netty-handler-4.0.33.Final.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -353,7 +413,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-codec">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104180546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="127">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104180546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="125">
 				<metadata-artifact status="no" details="" size="15912" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty-codec/ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-codec/4.0.33.Final/netty-codec-4.0.33.Final.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -367,7 +427,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-transport">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104180544" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="126">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104180544" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="124">
 				<metadata-artifact status="no" details="" size="15239" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty-transport/ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-transport/4.0.33.Final/netty-transport-4.0.33.Final.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -381,7 +441,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-buffer">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104180543" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="124">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104180543" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="122">
 				<metadata-artifact status="no" details="" size="15233" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty-buffer/ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-buffer/4.0.33.Final/netty-buffer-4.0.33.Final.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -395,7 +455,7 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty-common">
-			<revision name="4.0.33.Final" status="release" pubdate="20151104180553" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="125">
+			<revision name="4.0.33.Final" status="release" pubdate="20151104180553" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="123">
 				<metadata-artifact status="no" details="" size="13562" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty-common/ivy-4.0.33.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty-common/4.0.33.Final/netty-common-4.0.33.Final.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="4.0.33.Final" rev-constraint-default="4.0.33.Final" rev-constraint-dynamic="4.0.33.Final" callerrev="1.0"/>
 				<artifacts>
@@ -409,7 +469,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.cassandra" name="cassandra-clientutil">
-			<revision name="3.0.2" status="release" pubdate="20151230055816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cassandra.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="121">
+			<revision name="3.0.2" status="release" pubdate="20151230055816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://cassandra.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="119">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="19915" time="0" location="/home/peyton/.ivy2/cache/org.apache.cassandra/cassandra-clientutil/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/cassandra/cassandra-clientutil/3.0.2/cassandra-clientutil-3.0.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="1.0"/>
@@ -423,8 +483,38 @@
 				</artifacts>
 			</revision>
 		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.11.7" status="release" pubdate="20150622151800" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="152">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3103" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom"/>
+				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="15244851" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.7.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar"/>
+					</artifact>
+					<artifact name="scala-compiler" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2191433" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang/scala-compiler/srcs/scala-compiler-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430090700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="136">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42276" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.4-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4-sources.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="423753" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/jars/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.apache.spark" name="spark-sql_2.11">
-			<revision name="1.6.1" status="release" pubdate="20160310175924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="107">
+			<revision name="1.6.1" status="release" pubdate="20160310175924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="105">
 				<metadata-artifact status="no" details="" size="71855" time="0" location="/home/peyton/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-sql_2.11/1.6.1/spark-sql_2.11-1.6.1.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0"/>
 				<artifacts>
@@ -438,7 +528,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-hadoop">
-			<revision name="1.7.0" status="release" pubdate="20150515125000" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="117">
+			<revision name="1.7.0" status="release" pubdate="20150515125000" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="115">
 				<metadata-artifact status="no" details="" size="7260" time="0" location="/home/peyton/.ivy2/cache/org.apache.parquet/parquet-hadoop/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
@@ -452,7 +542,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-jackson">
-			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="119">
+			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="117">
 				<metadata-artifact status="no" details="" size="6570" time="0" location="/home/peyton/.ivy2/cache/org.apache.parquet/parquet-jackson/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-jackson/1.7.0/parquet-jackson-1.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
@@ -466,7 +556,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-format">
-			<revision name="2.3.0-incubating" status="release" pubdate="20150211170000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parquet.incubator.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="118">
+			<revision name="2.3.0-incubating" status="release" pubdate="20150211170000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parquet.incubator.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="116">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4012" time="0" location="/home/peyton/.ivy2/cache/org.apache.parquet/parquet-format/ivy-2.3.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.3.0-incubating" rev-constraint-default="2.3.0-incubating" rev-constraint-dynamic="2.3.0-incubating" callerrev="1.0"/>
@@ -481,7 +571,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-column">
-			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="112">
+			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="110">
 				<metadata-artifact status="no" details="" size="7372" time="0" location="/home/peyton/.ivy2/cache/org.apache.parquet/parquet-column/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-column/1.7.0/parquet-column-1.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
@@ -495,7 +585,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-encoding">
-			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="114">
+			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="112">
 				<metadata-artifact status="no" details="" size="6307" time="0" location="/home/peyton/.ivy2/cache/org.apache.parquet/parquet-encoding/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
@@ -509,7 +599,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-codec" name="commons-codec">
-			<revision name="1.5" status="release" pubdate="20110324203405" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="116">
+			<revision name="1.5" status="release" pubdate="20110324203405" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="114">
 				<metadata-artifact status="no" details="" size="6305" time="0" location="/home/peyton/.ivy2/cache/commons-codec/commons-codec/ivy-1.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-codec/commons-codec/1.5/commons-codec-1.5.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="1.0"/>
 				<artifacts>
@@ -523,7 +613,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-generator">
-			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="115">
+			<revision name="1.7.0" status="release" pubdate="20150515124900" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="113">
 				<metadata-artifact status="no" details="" size="5919" time="0" location="/home/peyton/.ivy2/cache/org.apache.parquet/parquet-generator/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
@@ -537,7 +627,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-common">
-			<revision name="1.7.0" status="release" pubdate="20150515124800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="113">
+			<revision name="1.7.0" status="release" pubdate="20150515124800" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://parquet.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="111">
 				<metadata-artifact status="no" details="" size="5811" time="0" location="/home/peyton/.ivy2/cache/org.apache.parquet/parquet-common/ivy-1.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
@@ -551,7 +641,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-catalyst_2.11">
-			<revision name="1.6.1" status="release" pubdate="20160310175925" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="108">
+			<revision name="1.6.1" status="release" pubdate="20160310175925" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="106">
 				<metadata-artifact status="no" details="" size="70580" time="0" location="/home/peyton/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-catalyst_2.11/1.6.1/spark-catalyst_2.11-1.6.1.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0"/>
 				<artifacts>
@@ -565,7 +655,7 @@
 			</revision>
 		</module>
 		<module organisation="org.codehaus.janino" name="janino">
-			<revision name="2.7.8" status="release" pubdate="20150130154100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="110">
+			<revision name="2.7.8" status="release" pubdate="20150130154100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="108">
 				<metadata-artifact status="no" details="" size="5149" time="0" location="/home/peyton/.ivy2/cache/org.codehaus.janino/janino/ivy-2.7.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/codehaus/janino/janino/2.7.8/janino-2.7.8.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.7.8" rev-constraint-default="2.7.8" rev-constraint-dynamic="2.7.8" callerrev="1.0"/>
 				<artifacts>
@@ -579,7 +669,7 @@
 			</revision>
 		</module>
 		<module organisation="org.codehaus.janino" name="commons-compiler">
-			<revision name="2.7.8" status="release" pubdate="20150130153900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="111">
+			<revision name="2.7.8" status="release" pubdate="20150130153900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="109">
 				<metadata-artifact status="no" details="" size="4891" time="0" location="/home/peyton/.ivy2/cache/org.codehaus.janino/commons-compiler/ivy-2.7.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/codehaus/janino/commons-compiler/2.7.8/commons-compiler-2.7.8.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.7.8" rev-constraint-default="2.7.8" rev-constraint-dynamic="2.7.8" callerrev="1.0"/>
 				<artifacts>
@@ -593,7 +683,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-lang" name="scala-reflect">
-			<revision name="2.11.7" status="release" pubdate="20150622151700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="109">
+			<revision name="2.11.7" status="release" pubdate="20150622151700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="107">
 				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
 				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/peyton/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
@@ -608,7 +698,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.spark" name="spark-streaming_2.11">
-			<revision name="1.6.1" status="release" pubdate="20160310170655" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="106">
+			<revision name="1.6.1" status="release" pubdate="20160310170655" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
 				<metadata-artifact status="no" details="" size="72868" time="0" location="/home/peyton/.ivy2/cache/org.apache.spark/spark-streaming_2.11/ivy-1.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-streaming_2.11/1.6.1/spark-streaming_2.11-1.6.1.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="1.0"/>
 				<artifacts>
@@ -1126,7 +1216,7 @@
 			</revision>
 		</module>
 		<module organisation="net.sf.py4j" name="py4j">
-			<revision name="0.9" status="release" pubdate="20150807005505" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.py4j.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="105">
+			<revision name="0.9" status="release" pubdate="20150807005505" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.py4j.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="103">
 				<license name="The New BSD License" url="http://www.opensource.org/licenses/bsd-license.html"/>
 				<metadata-artifact status="no" details="" size="3293" time="0" location="/home/peyton/.ivy2/cache/net.sf.py4j/py4j/ivy-0.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/sf/py4j/py4j/0.9/py4j-0.9.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.9" rev-constraint-default="0.9" rev-constraint-dynamic="0.9" callerrev="1.0"/>
@@ -1141,7 +1231,7 @@
 			</revision>
 		</module>
 		<module organisation="net.razorvine" name="pyrolite">
-			<revision name="4.9" status="release" pubdate="20150807020134" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/irmen/Pyrolite" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="104">
+			<revision name="4.9" status="release" pubdate="20150807020134" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/irmen/Pyrolite" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="102">
 				<license name="MIT License" url="https://raw.githubusercontent.com/irmen/Pyrolite/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="3792" time="0" location="/home/peyton/.ivy2/cache/net.razorvine/pyrolite/ivy-4.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/razorvine/pyrolite/4.9/pyrolite-4.9.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="4.9" rev-constraint-default="4.9" rev-constraint-dynamic="4.9" callerrev="1.0"/>
@@ -1156,7 +1246,7 @@
 			</revision>
 		</module>
 		<module organisation="org.tachyonproject" name="tachyon-client">
-			<revision name="0.8.2" status="release" pubdate="20151115171710" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
+			<revision name="0.8.2" status="release" pubdate="20151115171710" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="97">
 				<metadata-artifact status="no" details="" size="14524" time="0" location="/home/peyton/.ivy2/cache/org.tachyonproject/tachyon-client/ivy-0.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/tachyonproject/tachyon-client/0.8.2/tachyon-client-0.8.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.0"/>
 				<artifacts>
@@ -1170,7 +1260,7 @@
 			</revision>
 		</module>
 		<module organisation="org.tachyonproject" name="tachyon-underfs-local">
-			<revision name="0.8.2" status="release" pubdate="20151115171708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="103">
+			<revision name="0.8.2" status="release" pubdate="20151115171708" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="101">
 				<metadata-artifact status="no" details="" size="12477" time="0" location="/home/peyton/.ivy2/cache/org.tachyonproject/tachyon-underfs-local/ivy-0.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-local/0.8.2/tachyon-underfs-local-0.8.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.0"/>
 				<artifacts>
@@ -1184,7 +1274,7 @@
 			</revision>
 		</module>
 		<module organisation="org.tachyonproject" name="tachyon-underfs-s3">
-			<revision name="0.8.2" status="release" pubdate="20151115171705" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="102">
+			<revision name="0.8.2" status="release" pubdate="20151115171705" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
 				<metadata-artifact status="no" details="" size="12948" time="0" location="/home/peyton/.ivy2/cache/org.tachyonproject/tachyon-underfs-s3/ivy-0.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-s3/0.8.2/tachyon-underfs-s3-0.8.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.0"/>
 				<artifacts>
@@ -1198,7 +1288,7 @@
 			</revision>
 		</module>
 		<module organisation="org.tachyonproject" name="tachyon-underfs-hdfs">
-			<revision name="0.8.2" status="release" pubdate="20151115171707" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="101">
+			<revision name="0.8.2" status="release" pubdate="20151115171707" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="99">
 				<metadata-artifact status="no" details="" size="12798" time="0" location="/home/peyton/.ivy2/cache/org.tachyonproject/tachyon-underfs-hdfs/ivy-0.8.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/tachyonproject/tachyon-underfs-hdfs/0.8.2/tachyon-underfs-hdfs-0.8.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.8.2" rev-constraint-default="0.8.2" rev-constraint-dynamic="0.8.2" callerrev="1.0"/>
 				<artifacts>
@@ -1212,7 +1302,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.ivy" name="ivy">
-			<revision name="2.4.0" status="release" pubdate="20141222104000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="97">
+			<revision name="2.4.0" status="release" pubdate="20141222104000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
 				<metadata-artifact status="no" details="" size="5562" time="0" location="/home/peyton/.ivy2/cache/org.apache.ivy/ivy/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0"/>
 				<artifacts>
@@ -1226,7 +1316,7 @@
 			</revision>
 		</module>
 		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.11">
-			<revision name="2.4.4" status="release" pubdate="20141201224100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
+			<revision name="2.4.4" status="release" pubdate="20141201224100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4360" time="0" location="/home/peyton/.ivy2/cache/com.fasterxml.jackson.module/jackson-module-scala_2.11/ivy-2.4.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.4.4/jackson-module-scala_2.11-2.4.4.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4.4" rev-constraint-default="2.4.4" rev-constraint-dynamic="2.4.4" callerrev="1.0"/>
@@ -1241,7 +1331,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-graphite">
-			<revision name="3.1.2" status="release" pubdate="20150425230000" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="95">
+			<revision name="3.1.2" status="release" pubdate="20150425230000" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
 				<metadata-artifact status="no" details="" size="5230" time="0" location="/home/peyton/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -1255,7 +1345,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-json">
-			<revision name="3.1.2" status="release" pubdate="20150425230100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="94">
+			<revision name="3.1.2" status="release" pubdate="20150425230100" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
 				<metadata-artifact status="no" details="" size="5281" time="0" location="/home/peyton/.ivy2/cache/io.dropwizard.metrics/metrics-json/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-json/3.1.2/metrics-json-3.1.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -1269,7 +1359,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-jvm">
-			<revision name="3.1.2" status="release" pubdate="20150425225900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
+			<revision name="3.1.2" status="release" pubdate="20150425225900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">
 				<metadata-artifact status="no" details="" size="5013" time="0" location="/home/peyton/.ivy2/cache/io.dropwizard.metrics/metrics-jvm/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-jvm/3.1.2/metrics-jvm-3.1.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -1283,7 +1373,7 @@
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-core">
-			<revision name="3.1.2" status="release" pubdate="20150425225900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
+			<revision name="3.1.2" status="release" pubdate="20150425225900" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
 				<metadata-artifact status="no" details="" size="4992" time="0" location="/home/peyton/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
@@ -1297,7 +1387,7 @@
 			</revision>
 		</module>
 		<module organisation="com.clearspring.analytics" name="stream">
-			<revision name="2.7.0" status="release" pubdate="20140523084100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/addthis/stream-lib" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">
+			<revision name="2.7.0" status="release" pubdate="20140523084100" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/addthis/stream-lib" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="4221" time="0" location="/home/peyton/.ivy2/cache/com.clearspring.analytics/stream/ivy-2.7.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/clearspring/analytics/stream/2.7.0/stream-2.7.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.7.0" rev-constraint-default="2.7.0" rev-constraint-dynamic="2.7.0" callerrev="1.0"/>
@@ -1312,7 +1402,7 @@
 			</revision>
 		</module>
 		<module organisation="com.google.guava" name="guava">
-			<revision name="16.0.1" status="release" pubdate="20140203164500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="128">
+			<revision name="16.0.1" status="release" pubdate="20140203164500" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="126">
 				<metadata-artifact status="no" details="" size="5933" time="0" location="/home/peyton/.ivy2/cache/com.google.guava/guava/ivy-16.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/guava/guava/16.0.1/guava-16.0.1.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="16.0.1" rev-constraint-default="16.0.1" rev-constraint-dynamic="16.0.1" callerrev="1.0"/>
 				<artifacts>
@@ -1326,7 +1416,7 @@
 			</revision>
 		</module>
 		<module organisation="org.apache.mesos" name="mesos">
-			<revision name="0.21.1" status="release" pubdate="20141219141700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mesos.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="90">
+			<revision name="0.21.1" status="release" pubdate="20141219141700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://mesos.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
 				<metadata-artifact status="no" details="" size="3542" time="0" location="/home/peyton/.ivy2/cache/org.apache.mesos/mesos/ivy-0.21.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/mesos/mesos/0.21.1/mesos-0.21.1.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.21.1" rev-constraint-default="0.21.1" rev-constraint-dynamic="0.21.1" callerrev="1.0"/>
 				<artifacts>
@@ -1340,7 +1430,7 @@
 			</revision>
 		</module>
 		<module organisation="com.sun.jersey" name="jersey-core">
-			<revision name="1.9" status="release" pubdate="20110902061653" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="89">
+			<revision name="1.9" status="release" pubdate="20110902061653" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
 				<metadata-artifact status="no" details="" size="5441" time="0" location="/home/peyton/.ivy2/cache/com.sun.jersey/jersey-core/ivy-1.9.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="1.0"/>
 				<artifacts>
@@ -1382,7 +1472,7 @@
 			</revision>
 		</module>
 		<module organisation="org.json4s" name="json4s-jackson_2.11">
-			<revision name="3.2.10" status="release" pubdate="20140513122600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
+			<revision name="3.2.10" status="release" pubdate="20140513122600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/json4s/json4s" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
 				<license name="ASL" url="http://github.com/json4s/json4s/raw/HEAD/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2841" time="0" location="/home/peyton/.ivy2/cache/org.json4s/json4s-jackson_2.11/ivy-3.2.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/json4s/json4s-jackson_2.11/3.2.10/json4s-jackson_2.11-3.2.10.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.2.10" rev-constraint-default="3.2.10" rev-constraint-dynamic="3.2.10" callerrev="1.0"/>
@@ -1397,7 +1487,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
-			<revision name="2.3.11" status="release" pubdate="20150508095000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="87">
+			<revision name="2.3.11" status="release" pubdate="20150508095000" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3076" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/ivy-2.3.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-slf4j_2.11/2.3.11/akka-slf4j_2.11-2.3.11.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="1.0"/>
@@ -1412,7 +1502,7 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
-			<revision name="2.3.11" status="release" pubdate="20150508095100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
+			<revision name="2.3.11" status="release" pubdate="20150508095100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
 				<metadata-artifact status="no" details="" size="3826" time="0" location="/home/peyton/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.3.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/typesafe/akka/akka-remote_2.11/2.3.11/akka-remote_2.11-2.3.11.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="1.0"/>
@@ -1427,7 +1517,7 @@
 			</revision>
 		</module>
 		<module organisation="org.uncommons.maths" name="uncommons-maths">
-			<revision name="1.2.2a" status="release" pubdate="20110408085605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
+			<revision name="1.2.2a" status="release" pubdate="20110408085605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="84">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="2750" time="0" location="/home/peyton/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="1.0"/>
@@ -1441,23 +1531,8 @@
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="io.netty" name="netty">
-			<revision name="3.8.0.Final" status="release" pubdate="20131110044654" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
-				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="no" details="" size="6521" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/ivy-3.8.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom"/>
-				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="3.8.0.Final" rev-constraint-default="3.8.0.Final" rev-constraint-dynamic="3.8.0.Final" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1079966" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/srcs/netty-3.8.0.Final-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar"/>
-					</artifact>
-					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1230201" time="0" location="/home/peyton/.ivy2/cache/io.netty/netty/jars/netty-3.8.0.Final.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="commons-net" name="commons-net">
-			<revision name="2.2" status="release" pubdate="20101116185514" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="83">
+			<revision name="2.2" status="release" pubdate="20101116185514" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
 				<metadata-artifact status="no" details="" size="6222" time="0" location="/home/peyton/.ivy2/cache/commons-net/commons-net/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-net/commons-net/2.2/commons-net-2.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="1.0"/>
 				<artifacts>
@@ -1471,7 +1546,7 @@
 			</revision>
 		</module>
 		<module organisation="org.roaringbitmap" name="RoaringBitmap">
-			<revision name="0.5.11" status="release" pubdate="20151118012513" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/RoaringBitmap" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="82">
+			<revision name="0.5.11" status="release" pubdate="20151118012513" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lemire/RoaringBitmap" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3934" time="0" location="/home/peyton/.ivy2/cache/org.roaringbitmap/RoaringBitmap/ivy-0.5.11.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/roaringbitmap/RoaringBitmap/0.5.11/RoaringBitmap-0.5.11.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="0.5.11" rev-constraint-default="0.5.11" rev-constraint-dynamic="0.5.11" callerrev="1.0"/>
@@ -1486,7 +1561,7 @@
 			</revision>
 		</module>
 		<module organisation="net.jpountz.lz4" name="lz4">
-			<revision name="1.3.0" status="release" pubdate="20141126144000" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
+			<revision name="1.3.0" status="release" pubdate="20141126144000" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jpountz/lz4-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2612" time="0" location="/home/peyton/.ivy2/cache/net.jpountz.lz4/lz4/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/net/jpountz/lz4/lz4/1.3.0/lz4-1.3.0.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="1.0"/>
@@ -1501,7 +1576,7 @@
 			</revision>
 		</module>
 		<module organisation="org.xerial.snappy" name="snappy-java">
-			<revision name="1.1.2" status="release" pubdate="20150923111723" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="80">
+			<revision name="1.1.2" status="release" pubdate="20150923111723" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="3322" time="0" location="/home/peyton/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/xerial/snappy/snappy-java/1.1.2/snappy-java-1.1.2.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.0"/>
@@ -1516,7 +1591,7 @@
 			</revision>
 		</module>
 		<module organisation="com.ning" name="compress-lzf">
-			<revision name="1.0.3" status="release" pubdate="20140815233200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ning/compress" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="79">
+			<revision name="1.0.3" status="release" pubdate="20140815233200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ning/compress" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
 				<metadata-artifact status="no" details="" size="3428" time="0" location="/home/peyton/.ivy2/cache/com.ning/compress-lzf/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/ning/compress-lzf/1.0.3/compress-lzf-1.0.3.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0"/>
@@ -1531,7 +1606,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="jcl-over-slf4j">
-			<revision name="1.7.10" status="release" pubdate="20150106141300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
+			<revision name="1.7.10" status="release" pubdate="20150106141300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
 				<metadata-artifact status="no" details="" size="4845" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jcl-over-slf4j/1.7.10/jcl-over-slf4j-1.7.10.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
 				<artifacts>
@@ -1702,7 +1777,7 @@
 			</revision>
 		</module>
 		<module organisation="commons-io" name="commons-io">
-			<revision name="2.4" status="release" pubdate="20120612172203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="100">
+			<revision name="2.4" status="release" pubdate="20120612172203" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">
 				<metadata-artifact status="no" details="" size="8463" time="0" location="/home/peyton/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="1.0"/>
 				<artifacts>
@@ -1858,7 +1933,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="jul-to-slf4j">
-			<revision name="1.7.10" status="release" pubdate="20150106141400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="76">
+			<revision name="1.7.10" status="release" pubdate="20150106141400" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
 				<metadata-artifact status="no" details="" size="4884" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/jul-to-slf4j/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/jul-to-slf4j/1.7.10/jul-to-slf4j-1.7.10.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
 				<artifacts>
@@ -1872,7 +1947,7 @@
 			</revision>
 		</module>
 		<module organisation="org.slf4j" name="slf4j-log4j12">
-			<revision name="1.7.10" status="release" pubdate="20150106141200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
+			<revision name="1.7.10" status="release" pubdate="20150106141200" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="77">
 				<metadata-artifact status="no" details="" size="4846" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
 				<artifacts>
@@ -1881,17 +1956,6 @@
 					</artifact>
 					<artifact name="slf4j-log4j12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10411" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-log4j12/srcs/slf4j-log4j12-1.7.10-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.slf4j" name="slf4j-api">
-			<revision name="1.7.10" status="release" pubdate="20150106141100" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="75">
-				<metadata-artifact status="no" details="" size="4667" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.10.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.pom"/>
-				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="1.7.10" rev-constraint-default="1.7.10" rev-constraint-dynamic="1.7.10" callerrev="1.0"/>
-				<artifacts>
-					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50644" time="0" location="/home/peyton/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.10-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1912,7 +1976,7 @@
 			</revision>
 		</module>
 		<module organisation="oro" name="oro">
-			<revision name="2.0.8" status="release" pubdate="20080831064523" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">
+			<revision name="2.0.8" status="release" pubdate="20080831064523" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
 				<metadata-artifact status="no" details="" size="2170" time="0" location="/home/peyton/.ivy2/cache/oro/oro/ivy-2.0.8.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/oro/oro/2.0.8/oro-2.0.8.pom"/>
 				<caller organisation="default" name="quizzlertelegramingestor$sources_2.11" conf="compile" rev="2.0.8" rev-constraint-default="2.0.8" rev-constraint-dynamic="2.0.8" callerrev="1.0"/>
 				<artifacts>

@@ -12,7 +12,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.stream.ActorMaterializer
 
 
-class TelegramReceiver()
+class TelegramReceiver(webhookEndpoint: String, host: String, port: Int)
   extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) with Logging {
 
   def onStart() {
@@ -34,7 +34,7 @@ class TelegramReceiver()
       implicit val materializer = ActorMaterializer()
       // needed for the future flatMap/onComplete in the end
       implicit val executionContext = system.dispatcher
-      val route = path("UpdatesWebHook") {
+      val route = path(webhookEndpoint) {
         post {
           entity(as[String]) { request =>
             store(request)
@@ -42,7 +42,7 @@ class TelegramReceiver()
           }
         }
       }
-      val bindingFuture = Http().bindAndHandle(route, "localhost", 8080)
+      val bindingFuture = Http().bindAndHandle(route, host, port)
 
       while(!isStopped ) {
       }
